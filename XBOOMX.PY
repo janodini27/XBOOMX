@@ -71,5 +71,5 @@ def run_suite():
         print(f"\n\033[1;36m[#] {vector} completed. Switching to next vector...\033[0m\n")
         time.sleep(2)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     run_suite()
